@@ -1,4 +1,5 @@
-﻿using System;
+﻿using static WeekdayLibrary.Weekday;
+using System;
 
 namespace WeekdayProgram
 {
@@ -6,7 +7,8 @@ namespace WeekdayProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Task #02. Weekday\n");
+            Console.WriteLine("Answer: " + ShowWeekday(GetNumber("Enter number weekday (1-7): ")));
         }
     }
 }

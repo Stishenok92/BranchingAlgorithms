@@ -7,8 +7,10 @@ namespace VowelLibraryProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Task #03. DefinitionSymbol\n");
-            Console.WriteLine(DefinitionSymbol(Console.ReadLine()));
+            Console.WriteLine("Task #03. Definition symbol\n");
+            Console.Write("Enter symbol: ");
+            string str = Console.ReadLine();
+            Console.WriteLine("Answer: " + DefinitionSymbol(str));
         }
     }
 }
